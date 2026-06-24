@@ -12,6 +12,12 @@ Quodra turns any Linear project into a clean, **password-protected** board your 
 ![Self-hosted](https://img.shields.io/badge/self--hosted-%E2%9C%94-2ea44f)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
+<br>
+
+<img src="docs/board.png" alt="What your client sees — a clean, live, read-only Linear board" width="860">
+
+<sub><em>What your client sees: a live, read-only board — no Linear seat, no internal noise.</em></sub>
+
 </div>
 
 ---
@@ -33,6 +39,14 @@ Your clients want to know **what's shipping and when**. Linear is where the work
 1. **Connect** your Linear workspace with a single personal API key.
 2. **Create a link** in the admin panel — pick a project, set a password (or make it public), hide whatever the client shouldn't see, add their logo.
 3. **Share** the URL. Your client opens a live board at `https://your-domain/s/<slug>` and can submit requests that flow straight back into Linear.
+
+<div align="center">
+
+<img src="docs/triage.png" alt="A stakeholder submitting a request that becomes a Linear issue" width="720">
+
+<sub><em>Stakeholders file requests in one click — they land as issues in your Linear triage queue, no account required.</em></sub>
+
+</div>
 
 ## Quick start
 
