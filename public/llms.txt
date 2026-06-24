@@ -1,0 +1,16 @@
+# Quodra
+> Compartilhe o board de um projeto do Linear com clientes externos por um link ao vivo protegido por senha — em português, com Pix, R$49/mês.
+
+## Sobre
+Quodra é uma ferramenta brasileira que transforma o board de um projeto do Linear numa página clara para o cliente acompanhar o andamento, sem dar acesso ao workspace e sem consumir assento (licença) do Linear.
+
+## Páginas
+- [Início](https://quodra.com.br): o que é, como funciona, planos e preços.
+- [Blog](https://quodra.com.br/blog): artigos sobre acompanhamento de projetos e Linear.
+
+## Fatos
+- Empresa: Quodra
+- Idioma: português do Brasil
+- Pagamento: Pix, boleto e cartão (em reais)
+- Plano Free: R$0 com 1 link ativo. Plano Pro: R$49/mês com links ilimitados.
+- Segurança: token do Linear cifrado em repouso (AES-256); board somente leitura.

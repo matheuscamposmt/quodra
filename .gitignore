@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# nuxt build output
+.nuxt/
+.output/
+.nitro/
+.cache/
+dist/
+
+# local database (runtime data — never commit)
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# secrets — NEVER commit (use .env.example as the template)
+.env
+.env.*
+!.env.example
+
+# misc
+*.log
+.DS_Store
+
+# agent tooling state (oh-my-claudecode)
+.omx/

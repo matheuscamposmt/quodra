@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quodra">
+  <defs>
+    <linearGradient id="quodraLav" x1="20" y1="20" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6f7af0"/>
+      <stop offset="1" stop-color="#5e6ad2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- back tile: the team's board (the source), as a quiet outline -->
+  <rect x="11" y="9" width="34" height="34" rx="9.5" stroke="#5e6ad2" stroke-width="2.5" opacity="0.45"/>
+
+  <!-- front tile: the shared board the client sees -->
+  <rect x="19" y="21" width="34" height="34" rx="9.5" fill="url(#quodraLav)"/>
+
+  <!-- live kanban columns inside the shared board (ascending = progress) -->
+  <rect x="26" y="40" width="4" height="9"  rx="2" fill="#ffffff" opacity="0.92"/>
+  <rect x="34" y="34" width="4" height="15" rx="2" fill="#ffffff" opacity="0.92"/>
+  <rect x="42" y="29" width="4" height="20" rx="2" fill="#ffffff"/>
+
+  <!-- the "done" marker reaching the top of the tallest column -->
+  <circle cx="44" cy="26" r="2.4" fill="#ffffff"/>
+</svg>
