@@ -36,7 +36,7 @@ Your clients want to know **what's shipping and when**. Linear is where the work
 
 ## Quick start
 
-**Prerequisites:** Docker + Docker Compose, and a [Linear personal API key](https://linear.app/settings/api) (Settings → API → Personal API keys → **Create key**).
+**Prerequisites:** Docker + Docker Compose, and a [Linear personal API key](https://linear.app/settings/account/security/api-keys/new) (Settings → API → Personal API keys → **Create key**).
 
 ```bash
 git clone https://github.com/matheuscamposmt/quodra.git
